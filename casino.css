@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #0a0a14;
+    background-image: url('https://img.magnific.com/free-vector/gambling-ace-card-dark-background-with-text-space-light-effect_1017-54057.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17172a;
+    border-bottom: 5px solid #ffd700;
+    padding: 1.4rem 3rem;
+    font-size: 1.2rem;
+}
+
+.left-group {
+    display: flex;
+    gap: 2rem;
+}
+
+.guthaben-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home-link, .Casino-button {
+    color: #ffd700;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.guthaben-label {
+    color: #ffd700;
+    font-weight: 500;
+}
+
+.guthaben-value {
+    color: #4ade80;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.title-span {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffd700;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.title2 {
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.title-span2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffd700;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+
+
+.roulette-section {
+    display: flex;
+    justify-content: center;
+}
+
+.roulette {
+    background-image: url(https://img.magnific.com/fotos-premium/foto-von-casino-roulette-tisch-im-casino-hintergrund-generative-ki_1025753-69685.jpg);
+    background-size: cover;
+    background-color: #1a1a2e;
+    border: 2px solid #ef4444;
+    border-radius: 16px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.roulette:hover {
+    background-color: #ef4444;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(239, 68, 68, 0.3);
+}
+
+.slotmachine-section {
+    display: flex;
+    justify-content: center;
+}
+
+.slotmachine {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231005/pngtree-d-render-illustration-seven-casino-element-scoreboard-on-a-slot-machine-image_13547485.png);
+    background-size: cover;
+    background-color: #1a1a2e;
+    border: 2px solid greenyellow;
+    border-radius: 16px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 100px;
+}
+
+.slotmachine:hover {
+    background-color: greenyellow;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(239, 68, 68, 0.3);
+}
+
+.blackjack-section {
+    display: flex;
+    justify-content: center;
+}
+
+.blackjack {
+    background-image: url(https://wallpaperbat.com/img/95760510-blackjack-picture-download-free.jpg);
+    background-size: cover;
+    background-color: #1a1a2e;
+    border: 2px solid blue;
+    border-radius: 16px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 100px;
+}
+
+.blackjack:hover {
+    background-color: blue;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(239, 68, 68, 0.3);
+}
+
+.button-back {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+#backtotop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1e1e33;
+    border: 2px solid #ffd700;
+    color: #ffd700;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backtotop:hover {
+    background-color: #ffd700;
+    color: #12121f;
+    transform: translateY(-3px);
+}

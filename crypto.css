@@ -1,0 +1,241 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #0a0a14;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17172a;
+    border-bottom: 5px solid #ffd700;
+    padding: 1.4rem 3rem;
+    font-size: 1.2rem;
+}
+
+.left-group {
+    display: flex;
+    gap: 2rem;
+}
+
+.guthaben-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home-link, .Casino-button {
+    color: #ffd700;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.guthaben-label {
+    color: #ffd700;
+    font-weight: 500;
+}
+
+.guthaben-value {
+    color: #4ade80;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.title-span {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffd700;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.kurs-box {
+    background-color: grey;
+    border: 3px solid #ffd700;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-left: 65px;
+    width: 200px;
+}
+
+.kurs-title {
+    color: #ffd700;
+    font-size: 45px;
+    text-align: left;
+    margin: 0;
+}
+
+/* Wrapper haelt kurs-section und kauf-section nebeneinander */
+.haupt-wrapper {
+    display: flex;
+    gap: 30px;
+    margin: 45px 0 0 65px;
+    align-items: flex-start;
+}
+
+.kurs-section {
+    background-color: grey;
+    border: 3px solid #ffd700;
+    height: 600px;
+    width: 1000px;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.Bitcoin-button {
+    color: #ffd700;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.kauf-section {
+    background-color: #12121f;
+    border: 3px solid #ffd700;
+    border-radius: 8px;
+    height: 600px;
+    width: 320px;
+    padding: 1.5rem;
+    flex-shrink: 0;
+}
+
+.platzhalter-text {
+    color: #ffd700;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.button-back {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+#backtotop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1e1e33;
+    border: 2px solid #ffd700;
+    color: #ffd700;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#backtotop:hover {
+    background-color: #ffd700;
+    color: #12121f;
+    transform: translateY(-3px);
+}
+
+/* Widget-Inhalt (wird per JS in .kauf-section eingefuegt) */
+.widget-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.coin-icon {
+    background-color: #f7931a;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.coin-price {
+    color: #4ade80;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.betrag-label {
+    display: block;
+    color: #8b94a3;
+    font-size: 0.75rem;
+    margin-bottom: 0.4rem;
+}
+
+.betrag-input {
+    width: 100%;
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a40;
+    border-radius: 8px;
+    padding: 0.7rem;
+    color: #f2f2f2;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.widget-buttons {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.kaufen-btn, .verkaufen-btn {
+    flex: 1;
+    padding: 0.7rem;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.kaufen-btn {
+    background-color: #22c55e;
+    color: #ffffff;
+}
+
+.verkaufen-btn {
+    background-color: transparent;
+    border: 1px solid #ef4444;
+    color: #ef4444;
+}
+
+.konto-block {
+    margin-bottom: 1.2rem;
+}
+
+.konto-block h4 {
+    color: #6b7686;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.6rem;
+}
+
+.konto-row {
+    display: flex;
+    justify-content: space-between;
+    color: #f2f2f2;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+}
+
+.konto-row.total span:last-child {
+    color: #4ade80;
+    font-weight: 700;
+}
+
+.negative {
+    color: #ef4444;
+}
