@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto-CHIP</title>
+    <link rel="stylesheet" href="roulette.css">
+</head>
+<body>
+
+    <div class="topbar">
+    <div class="left-group">
+        <a href="../Gambling.html" class="home-link">Home</a>
+        <a href="../crypto.html" class="Casino-button">Crypto</a>
+        <a href="../casino.html" class="Casino-button">Casino</a>
+    </div>
+
+        <div class="guthaben-group">
+            <span class="guthaben-label">Guthaben:</span>
+            <span class="guthaben-value" id="guthabenAnzeige">1200chf</span>
+        </div>
+    </div>
+
+   <div class="roulette-area">
+    <div class="wheel" id="wheel">0</div>
+
+    <div class="bet-panel">
+        <label>Einsatz:</label>
+        <input type="number" id="einsatz" value="10" min="1">
+
+        <div class="bet-gruppe">
+            <span class="gruppen-titel">Farbe</span>
+            <div class="bet-reihe">
+                <button class="bet-btn" data-typ="farbe" data-wert="rot">Rot</button>
+                <button class="bet-btn" data-typ="farbe" data-wert="schwarz">Schwarz</button>
+            </div>
+        </div>
+
+        <div class="bet-gruppe">
+            <span class="gruppen-titel">Gerade / Ungerade</span>
+            <div class="bet-reihe">
+                <button class="bet-btn" data-typ="paritaet" data-wert="gerade">Gerade</button>
+                <button class="bet-btn" data-typ="paritaet" data-wert="ungerade">Ungerade</button>
+            </div>
+        </div>
+
+        <div class="bet-gruppe">
+            <span class="gruppen-titel">Niedrig / Hoch</span>
+            <div class="bet-reihe">
+                <button class="bet-btn" data-typ="bereich" data-wert="niedrig">1–18</button>
+                <button class="bet-btn" data-typ="bereich" data-wert="hoch">19–36</button>
+            </div>
+        </div>
+
+        <div class="bet-gruppe">
+            <span class="gruppen-titel">Kolonne</span>
+            <div class="bet-reihe">
+                <button class="bet-btn" data-typ="kolonne" data-wert="1">Kol. 1</button>
+                <button class="bet-btn" data-typ="kolonne" data-wert="2">Kol. 2</button>
+                <button class="bet-btn" data-typ="kolonne" data-wert="3">Kol. 3</button>
+            </div>
+        </div>
+
+        <div class="bet-gruppe">
+            <span class="gruppen-titel">Zahl (0–36)</span>
+            <input type="number" id="zahlInput" min="0" max="36" placeholder="z.B. 17">
+            <button class="bet-btn zahl-btn" data-typ="zahl">Auf Zahl setzen</button>
+        </div>
+
+        <button id="spinBtn">Drehen</button>
+    </div>
+</div>
+
+<div class="ergebnis-box" id="ergebnisBox">
+    <p class="ergebnis-platzhalter">Noch keine Runde gespielt.</p>
+</div>
+
+<script src="roulette.js"></script>
+</body>

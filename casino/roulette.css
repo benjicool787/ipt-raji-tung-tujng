@@ -1,0 +1,192 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #0a0a14;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17172a;
+    border-bottom: 5px solid #ffd700;
+    padding: 1.4rem 3rem;
+    font-size: 1.2rem;
+}
+
+.left-group {
+    display: flex;
+    gap: 2rem;
+}
+
+.guthaben-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home-link, .Casino-button {
+    color: #ffd700;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.guthaben-label {
+    color: #ffd700;
+    font-weight: 500;
+}
+
+.guthaben-value {
+    color: #4ade80;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.title-span {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffd700;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.roulette-area {
+    margin-top: 350px;
+    width: 1200px;
+    margin: auto;
+}
+
+.bet-panel {
+    background-color: #1a1a2e;
+    border: 2px solid #2a2a40;
+    border-radius: 16px;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-width: 280px;
+}
+
+.bet-panel > label {
+    color: #b3b3c6;
+    font-size: 0.9rem;
+}
+
+.bet-panel input {
+    background-color: #12121f;
+    border: 1px solid #2a2a40;
+    border-radius: 8px;
+    padding: 0.7rem;
+    color: #f2f2f2;
+    font-size: 1rem;
+}
+
+.bet-gruppe {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.gruppen-titel {
+    color: #6b7686;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.bet-reihe {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.bet-btn {
+    flex: 1;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 2px solid #2a2a40;
+    background-color: transparent;
+    color: #e4e6eb;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+}
+
+.bet-btn:hover {
+    border-color: #ffd700;
+}
+
+.bet-btn.active {
+    background-color: #ffd700;
+    border-color: #ffd700;
+    color: #12121f;
+}
+
+.zahl-btn {
+    width: 100%;
+}
+
+#spinBtn {
+    background-color: #ffd700;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #12121f;
+    margin-top: 0.5rem;
+}
+
+#spinBtn:hover {
+    opacity: 0.85;
+}
+
+.ergebnis-box {
+    background-color: #1a1a2e;
+    border: 2px solid #2a2a40;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.ergebnis-platzhalter {
+    color: #6b7686;
+    font-size: 1rem;
+}
+
+.ergebnis-zahl {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.4rem;
+}
+
+.ergebnis-wette {
+    color: #b3b3c6;
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+}
+
+.ergebnis-betrag {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.ergebnis-betrag.gewonnen {
+    color: #4ade80;
+}
+
+.ergebnis-betrag.verloren {
+    color: #ef4444;
+}
